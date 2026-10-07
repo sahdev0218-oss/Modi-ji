@@ -1,0 +1,6 @@
+{
+  "name": "PM Modi: Bharat Mission",
+  "description": "3D educational adventure and community mission game across India featuring cultural exploration, cleanliness drives, and green initiatives.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

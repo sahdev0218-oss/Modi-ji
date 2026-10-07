@@ -1,0 +1,10 @@
+{
+  "appId": "com.bharatmission.pmmodi",
+  "appName": "PM Modi: Bharat Mission",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "android": {
+    "allowMixedContent": true,
+    "backgroundColor": "#020617"
+  }
+}

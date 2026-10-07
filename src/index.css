@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@layer base {
+  * {
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+
+  body {
+    font-family: 'Outfit', 'Hind', system-ui, sans-serif;
+    touch-action: manipulation;
+    overscroll-behavior: none;
+  }
+}
+
+.font-heading {
+  font-family: 'Cinzel', 'Hind', serif;
+}
+
+.font-hindi {
+  font-family: 'Hind', sans-serif;
+}
+
+/* Custom glowing effects & tricolor styles */
+.text-tricolor {
+  background: linear-gradient(135deg, #FF9933 0%, #FFFFFF 50%, #138808 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.border-tricolor {
+  border-image: linear-gradient(to right, #FF9933, #FFFFFF, #138808) 1;
+}
+
+/* Pulse animations for 3D game indicators */
+@keyframes pulseGlow {
+  0%, 100% { opacity: 0.8; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.08); filter: drop-shadow(0 0 12px rgba(255, 153, 51, 0.8)); }
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 2s infinite ease-in-out;
+}
+
